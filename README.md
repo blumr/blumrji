@@ -1,5 +1,5 @@
 # Blumrji
-Blumr emojis
+Blumr emojis \u2764
 
 ### Maintainers
 * Gene Diaz Jr. <gene@letsblumit.com>
@@ -50,6 +50,6 @@ npm run convert
 ```
 
 ### License
-* All codes are under [MIT License](https://github.com/letsblumit/blumrcons/blob/master/LICENSE-CODE)
-* All graphics are under [Creative Commons Attribution 4.0 International CC-BY 4.0](https://github.com/letsblumit/blumrcons/blob/master/LICENSE-GRAPHICS)
+* All codes are under [MIT License](https://github.com/letsblumit/blumrjis/blob/master/LICENSE-CODE)
+* All graphics are under [Creative Commons Attribution 4.0 International CC-BY 4.0](https://github.com/letsblumit/blumrjis/blob/master/LICENSE-GRAPHICS)
 
