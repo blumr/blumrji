@@ -50,6 +50,6 @@ npm run convert
 ```
 
 ### License
-* All codes are under [MIT License](https://github.com/letsblumit/blumrjis/blob/master/LICENSE-CODE)
-* All graphics are under [Creative Commons Attribution 4.0 International CC-BY 4.0](https://github.com/letsblumit/blumrjis/blob/master/LICENSE-GRAPHICS)
+* All codes are under [MIT License](https://github.com/letsblumit/blumrji/blob/master/LICENSE-CODE)
+* All graphics are under [Creative Commons Attribution 4.0 International CC-BY 4.0](https://github.com/letsblumit/blumrji/blob/master/LICENSE-GRAPHICS)
 
