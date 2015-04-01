@@ -7,7 +7,7 @@ Blumr emojis \u2764
 
 ### Technologies
 * [svgo](https://github.com/svg/svgo/) - svg optimizer
-* [svg-to-png](https://github.com/filamentgroup/svg-to-png) - converter
+* [svg2png](https://github.com/domenic/svg2png) - converter
 
 ### Configs
 * [.jscsrc](http://jscs.info/rules.html) - javascript code style
@@ -39,14 +39,12 @@ npm run convert
 
 #### Project directory structure
 ```
-├─ demo              - icons demo
-├─ dist
-│  ├─ blumrcons.h    - ios
-│  └─ blumrcons.xml  - android
-├─ font
-│  ├─ blumrcons.eot  - opentype
-│  └─ blumrcons.woff - web open
-└─ svg               - source svgs
+├─ 16x16  - minified
+├─ 32x23  - minified
+├─ 72x72  - minified
+├─ demo   - emojis demo
+├─ png    - raw pngs
+└─ svg    - source svgs
 ```
 
 ### License
