@@ -17,7 +17,8 @@
     "async": "0.9.x",
     "chalk": "0.5.x",
     "jshint": "2.5.x",
-    "node-dir": "0.1.x",
-    "svg-to-png": "2.0.x"
+    "svg2png": "1.1.x",
+    "imagemin": "3.1.x",
+    "node-dir": "0.1.x"
   }
 }
