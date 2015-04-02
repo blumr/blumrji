@@ -8,6 +8,7 @@ Blumr emojis \u2764
 ### Technologies
 * [svgo](https://github.com/svg/svgo/) - svg optimizer
 * [svg2png](https://github.com/domenic/svg2png) - converter
+* [twemoji](https://github.com/twitter/twemoji) - parser
 
 ### Configs
 * [.jscsrc](http://jscs.info/rules.html) - javascript code style
