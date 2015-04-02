@@ -18,8 +18,6 @@ var fs = require('fs'),
   srcDir = process.argv[2],
   srcPath = path.join(__dirname, srcDir),
   outPath = path.join(__dirname, 'png'),
-  outPath16 = path.join(__dirname, '16x16'),
-  outPath36 = path.join(__dirname, '36x36'),
   outPath72 = path.join(__dirname, '72x72'),
   svgo = new Svgo();
 
@@ -162,21 +160,7 @@ function convertSvg(file, callback) {
                 callback2(err);
               } else {
                 util.log(chalk.green(filename + ' 72x72 resized ✓'));
-                processImage(image, 36, path.join(outPath36, pngFile), function (err) {
-                  if (err) {
-                    callback2(err);
-                  } else {
-                    util.log(chalk.green(filename + ' 36x36 resized ✓'));
-                    processImage(image, 16, path.join(outPath16, pngFile), function (err) {
-                      if (err) {
-                        callback2(err);
-                      } else {
-                        util.log(chalk.green(filename + ' 16x16 resized ✓'));
-                        callback2();
-                      }
-                    });
-                  }
-                });
+                callback2();
               }
             });
           });

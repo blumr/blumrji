@@ -41,8 +41,6 @@ npm run convert [svg name] -- single file
 
 #### Project directory structure
 ```
-├─ 16x16  - minified
-├─ 32x23  - minified
 ├─ 72x72  - minified
 ├─ demo   - emojis demo
 ├─ png    - raw pngs
